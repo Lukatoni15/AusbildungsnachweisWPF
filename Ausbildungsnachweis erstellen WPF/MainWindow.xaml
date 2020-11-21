@@ -4,18 +4,31 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ausbildungsnachweis_erstellen_WPF"
-        mc:Ignorable="d" Height="461.25" Width="800" Background="Black">
+        mc:Ignorable="d" Height="726.114" Width="800" Background="Black">
     <Grid HorizontalAlignment="Left" Height="402" Margin="6,9,0,0" VerticalAlignment="Top" Width="775">
-        <Button Content="..."               HorizontalAlignment="Left" Height="23" Margin="668,11,0,0" VerticalAlignment="Top" Width="36" Click="selectDirectory"/>
+        <Button Content="..."               HorizontalAlignment="Left" Height="23" Margin="704,11,0,0" VerticalAlignment="Top" Width="36" Click="selectDirectory" RenderTransformOrigin="0.87,2.45"/>
 
-        <TextBox Name ="PathForNewPDF"      HorizontalAlignment="Left" Margin="24,11,0,0"   TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="23" Width="680"/>
-        <TextBox Name ="name"               HorizontalAlignment="Left" Margin="108,98,0,0"   TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="21" Width="76"/>
-        <TextBox Name ="nummer"             HorizontalAlignment="Left" Margin="124,133,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="21" Width="45"/>
-        <TextBox Name ="von"                HorizontalAlignment="Left" Margin="341,133,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="21" Width="76"/>
-        <TextBox Name ="bis"                HorizontalAlignment="Left" Margin="549,133,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="21" Width="76"/>
-        <TextBox Name ="abteilung"          HorizontalAlignment="Left" Margin="93,195,0,0"  TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="21" Width="108"/>
-        <TextBox Name ="ausbildungsjahr"    HorizontalAlignment="Left" Margin="427,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="21" Width="76"/>
+        <TextBox Name ="PathForNewPDF"      HorizontalAlignment="Left" Margin="24,11,0,0"   TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="680"/>
+        <TextBox Name ="name"               HorizontalAlignment="Left" Margin="125,78,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
+        <TextBox Name ="nummer"             HorizontalAlignment="Left" Margin="156,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="45"/>
+        <TextBox Name ="von"                HorizontalAlignment="Left" Margin="341,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
+        <TextBox Name ="bis"                HorizontalAlignment="Left" Margin="450,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
+        <TextBox Name ="abteilung"          HorizontalAlignment="Left" Margin="168,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="168"/>
+        <TextBox Name ="ausbildungsjahr"    HorizontalAlignment="Left" Margin="450,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="49"/>
 
-        <Label Name="lbName" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,98,0,0" Height="29" Width="98" Content="Name, Vorname" FontStyle="Italic" FontSize="12" Background="Black" Foreground="White" FontFamily="Calibri"/>
+        <Label Name="lbName"                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 78, 0,0"  Height="29" Width="98"  Content="Name, Vorname"                FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="lbNummer"              HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 112,0,0"  Height="29" Width="141" Content="Ausbildungsnachweis Nr."      FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="lbVon"                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="223,112,0,0"  Height="29" Width="113" Content="für die Wocher vom"            FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="lbBis"                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,111,0,0"  Height="29" Width="25"  Content="bis"                            FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="lbAbteilung"           HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 146,0,0"  Height="29" Width="153" Content="Abteilung oder Arbeitsgebiet"  FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="lbAusbildungsjahr"     HorizontalAlignment="Left" VerticalAlignment="Top" Margin="345,146,0,0"  Height="29" Width="100" Content="Ausbildungsjahr"               FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="lbBetriebsaufgen"      HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,185,0,0"    Height="29" Width="100" Content="Betriebsaufgaben"                FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="lbSchulungen"          HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,344,0,0"    Height="29" Width="343" Content="Unterweisungen, betrieblicher Unterricht, sonstige Schulungen"              FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="lbBerufsschule"        HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,511,0,-138" Height="29" Width="343" Content="Berufsschule (Unterrichtsthemen)" FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+
+        <TextBox Margin="10,214,10,76"  Height ="125"  AcceptsTab="True" TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.CanContentScroll="True"/>
+        <TextBox Margin="8,372,10,-95"  Height ="125"  AcceptsTab="True" TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.CanContentScroll="True"/>
+        <TextBox Margin="8,540,10,-263" Height ="125"  AcceptsTab="True" TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.CanContentScroll="True"/>
+
     </Grid>
 </Window>

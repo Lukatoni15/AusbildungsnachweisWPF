@@ -26,7 +26,7 @@ namespace Ausbildungsnachweis_erstellen_WPF
             InitializeComponent();
             setAllgemeineDaten();
             Pdfcreator pdf = new Pdfcreator(nachweis);
-            pdf.pdfFromScratch();
+            //pdf.pdfFromScratch();
         }
 
         public void setAllgemeineDaten()

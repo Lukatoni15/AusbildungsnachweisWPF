@@ -23,3 +23,28 @@ C:\Users\lbagar\source\repos\Ausbildungsnachweis erstellen WPF\Ausbildungsnachwe
 C:\Users\lbagar\source\repos\Ausbildungsnachweis erstellen WPF\Ausbildungsnachweis erstellen WPF\bin\Debug\de\PdfSharp.resources.dll
 C:\Users\lbagar\source\repos\Ausbildungsnachweis erstellen WPF\Ausbildungsnachweis erstellen WPF\bin\Debug\de\PdfSharp.Charting.resources.dll
 C:\Users\lbagar\source\repos\Ausbildungsnachweis erstellen WPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF.csproj.CopyComplete
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\Ausbildungsnachweis erstellen WPF.exe.config
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\Ausbildungsnachweis erstellen WPF.exe
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\Ausbildungsnachweis erstellen WPF.pdb
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\itextsharp.dll
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\PdfSharp.Charting.dll
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\PdfSharp.dll
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\itextsharp.xml
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\PdfSharp.xml
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\PdfSharp.Charting.xml
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF.csprojAssemblyReference.cache
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\MainWindow.g.cs
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\App.g.cs
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF_MarkupCompile.cache
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF_MarkupCompile.lref
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\MainWindow.baml
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF.g.resources
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis_erstellen_WPF.Properties.Resources.resources
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF.csproj.GenerateResource.cache
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF.csproj.CoreCompileInputs.cache
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF.csproj.CopyComplete
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF.exe
+C:\Users\jason\Source\Repos\AusbildungsnachweisWPF\Ausbildungsnachweis erstellen WPF\obj\Debug\Ausbildungsnachweis erstellen WPF.pdb
