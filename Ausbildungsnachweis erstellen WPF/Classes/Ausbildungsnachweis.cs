@@ -11,160 +11,110 @@ namespace Ausbildungsnachweis_erstellen_WPF.Classes
 {
     class Ausbildungsnachweis
     {
-        private string allgemeineDatenFile = Directory.GetCurrentDirectory() + "\\allgemeine Daten\\Text.txt";
-        private string betriebsaufgabenFile = Directory.GetCurrentDirectory() + "\\Betrieb.txt";
+        private readonly string _allgemeineDatenFile = Directory.GetCurrentDirectory() + "\\allgemeine Daten\\Text.txt";
+        private readonly string _betriebsaufgabenFile = Directory.GetCurrentDirectory() + "\\Betrieb.txt";
 
-        private string name;
-        private string nummer;
-        private string von;
-        private string bis;
-        private string abteilung;
-        private string ausbildungsjahr;
-        private string toPath;
+        private string _name;
+        private string _nummer;
+        private string _von;
+        private string _bis;
+        private string _abteilung;
+        private string _ausbildungsjahr;
+        private string _toPath;
 
-        private string betriebsaufgaben;
-        private string schulungen;
-        private string schule;
+        private string _betriebsaufgaben;
+        private string _schulungen;
+        private string _schule;
 
         public Ausbildungsnachweis()
         {
-            getAllgemeineDatenFromFile();
+            GetAllgemeineDatenFromFile();
             //getBetriebsaufgabenFromFile();
         }
 
-        public void getAllgemeineDatenFromFile()
+        private void GetAllgemeineDatenFromFile()
         {
-            Boolean doesFileExists = File.Exists(allgemeineDatenFile);
-            if (doesFileExists)
+            Boolean doesFileExists = File.Exists(_allgemeineDatenFile);
+            if(doesFileExists)
             {
-                string[] allgemeineDaten    = File.ReadAllLines(allgemeineDatenFile);
-                name                        = allgemeineDaten[0];
-                nummer                      = allgemeineDaten[1];
-                von                         = allgemeineDaten[2];
-                bis                         = allgemeineDaten[3];
-                ausbildungsjahr             = allgemeineDaten[4];
-                abteilung                   = allgemeineDaten[5];
-                toPath                      = allgemeineDaten[6];
+                string[] allgemeineDaten     = File.ReadAllLines(_allgemeineDatenFile);
+                _name                        = allgemeineDaten[0];
+                _nummer                      = allgemeineDaten[1];
+                _von                         = allgemeineDaten[2];
+                _bis                         = allgemeineDaten[3];
+                _ausbildungsjahr             = allgemeineDaten[4];
+                _abteilung                   = allgemeineDaten[5];
+                _toPath                      = allgemeineDaten[6];
             }
         }
 
-        //public void getBetriebsaufgabenFromFile()
-        //{
-        //    Boolean doesFileExists = File.Exists(betriebsaufgabenFile);
-        //    if (doesFileExists)
-        //    {
-        //        betriebsaufgaben = File.ReadAllLines(betriebsaufgabenFile);
-        //    }
-        //}
-
-        public void writeAllgemineDatenToFile()
+        private void GetBetriebsaufgabenFromFile()
         {
-
+            Boolean doesFileExists = File.Exists(_betriebsaufgabenFile);
+            if (doesFileExists)
+            {
+                //_betriebsaufgaben = File.ReadAllLines(_betriebsaufgabenFile);
+            }
         }
 
-        public void writeBetriebsaufgabenToFile()
+        public void WriteAllgemineDatenToFile()
         {
+            
+        }
 
+        public void WriteBetriebsaufgabenToFile()
+        {
+            
         }        
 
-        public string getName()
+        public string GetName()
         {
-            return name;
+            return _name;
         }
 
-        public string getNummer()
+        public string GetNummer()
         {
-            return nummer;
+            return _nummer;
         }
 
-        public string getVon()
+        public string GetVon()
         {
-            return von;
+            return _von;
         }
 
-        public string getBis()
+        public string GetBis()
         {
-            return bis;
+            return _bis;
         }
 
-        public string getAbteilung()
+        public string GetAbteilung()
         {
-            return abteilung;
+            return _abteilung;
         }
 
-        public string getAusbildungsjahr()
+        public string GetAusbildungsjahr()
         {
-            return ausbildungsjahr;
+            return _ausbildungsjahr;
         }
 
-        public string getBetriebsaufgaben()
+        public string GetBetriebsaufgaben()
         {
-            return betriebsaufgaben;
+            return _betriebsaufgaben;
         }
 
-        public string getSchulungen()
+        public string GetSchulungen()
         {
-            return schulungen;
+            return _schulungen;
         }
 
-        public string getSchule()
+        public string GetSchule()
         {
-            return schule;
+            return _schule;
         }
 
-        public string getToPath()
+        public string GetToPath()
         {
-            return toPath;
-        }
-
-        public void setName(string pName)
-        {
-            this.name = pName;
-        }
-
-        public void setNummer(string pNummer)
-        {
-            nummer = pNummer;
-        }
-
-        public void setVon(string pVon)
-        {
-            von = pVon;
-        }
-
-        public void setBis(string pBis)
-        {
-            bis = pBis;
-        }
-
-        public void setAbteilung(string pAbteilung)
-        {
-            abteilung = pAbteilung;
-        }
-
-        public void setAusbildungsjahr(string pAusbildungsjahr)
-        {
-            ausbildungsjahr = pAusbildungsjahr;
-        }
-
-        public void setBetriebsaufgaben(string pBetriebsaufgaben)
-        {
-            betriebsaufgaben = pBetriebsaufgaben;
-        }
-
-        public void setSchulungen(string pSchulungen)
-        {
-            schulungen = pSchulungen;
-        }
-
-        public void setSchule(string pSchule)
-        {
-            schule = pSchule;
-        }
-
-        public void setToPath(string pToPath)
-        {
-            toPath = pToPath;
+            return _toPath;
         }
     }
 }

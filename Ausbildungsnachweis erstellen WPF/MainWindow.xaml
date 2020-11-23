@@ -6,25 +6,25 @@
         xmlns:local="clr-namespace:Ausbildungsnachweis_erstellen_WPF"
         mc:Ignorable="d" Height="726.114" Width="800" Background="Black">
     <Grid HorizontalAlignment="Left" Height="402" Margin="6,9,0,0" VerticalAlignment="Top" Width="775">
-        <Button Content="..."               HorizontalAlignment="Left" Height="23" Margin="704,11,0,0" VerticalAlignment="Top" Width="36" Click="selectDirectory" RenderTransformOrigin="0.87,2.45"/>
+        <Button Content="..."               HorizontalAlignment="Left" Height="23" Margin="704,11,0,0" VerticalAlignment="Top" Width="36" Click="SelectDirectory" RenderTransformOrigin="0.87,2.45"/>
 
-        <TextBox Name ="PathForNewPDF"      HorizontalAlignment="Left" Margin="24,11,0,0"   TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="680"/>
-        <TextBox Name ="name"               HorizontalAlignment="Left" Margin="125,78,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
-        <TextBox Name ="nummer"             HorizontalAlignment="Left" Margin="156,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="45"/>
-        <TextBox Name ="von"                HorizontalAlignment="Left" Margin="341,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
-        <TextBox Name ="bis"                HorizontalAlignment="Left" Margin="450,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
-        <TextBox Name ="abteilung"          HorizontalAlignment="Left" Margin="168,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="168"/>
-        <TextBox Name ="ausbildungsjahr"    HorizontalAlignment="Left" Margin="450,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="49"/>
+        <TextBox Name ="PathForNewPdf"      HorizontalAlignment="Left" Margin="24,11,0,0"   TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="680"/>
+        <TextBox Name ="Name"               HorizontalAlignment="Left" Margin="125,78,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
+        <TextBox Name ="Nummer"             HorizontalAlignment="Left" Margin="156,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="45"/>
+        <TextBox Name ="Von"                HorizontalAlignment="Left" Margin="341,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
+        <TextBox Name ="Bis"                HorizontalAlignment="Left" Margin="450,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="76"/>
+        <TextBox Name ="Abteilung"          HorizontalAlignment="Left" Margin="168,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="168"/>
+        <TextBox Name ="Ausbildungsjahr"    HorizontalAlignment="Left" Margin="450,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="49"/>
 
-        <Label Name="lbName"                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 78, 0,0"  Height="29" Width="98"  Content="Name, Vorname"                FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
-        <Label Name="lbNummer"              HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 112,0,0"  Height="29" Width="141" Content="Ausbildungsnachweis Nr."      FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
-        <Label Name="lbVon"                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="223,112,0,0"  Height="29" Width="113" Content="für die Wocher vom"            FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
-        <Label Name="lbBis"                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,111,0,0"  Height="29" Width="25"  Content="bis"                            FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
-        <Label Name="lbAbteilung"           HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 146,0,0"  Height="29" Width="153" Content="Abteilung oder Arbeitsgebiet"  FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
-        <Label Name="lbAusbildungsjahr"     HorizontalAlignment="Left" VerticalAlignment="Top" Margin="345,146,0,0"  Height="29" Width="100" Content="Ausbildungsjahr"               FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
-        <Label Name="lbBetriebsaufgen"      HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,185,0,0"    Height="29" Width="100" Content="Betriebsaufgaben"                FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
-        <Label Name="lbSchulungen"          HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,344,0,0"    Height="29" Width="343" Content="Unterweisungen, betrieblicher Unterricht, sonstige Schulungen"              FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
-        <Label Name="lbBerufsschule"        HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,511,0,-138" Height="29" Width="343" Content="Berufsschule (Unterrichtsthemen)" FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbName"                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 78, 0,0"  Height="29" Width="98"  Content="Name, Vorname"                FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbNummer"              HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 112,0,0"  Height="29" Width="141" Content="Ausbildungsnachweis Nr."      FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbVon"                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="223,112,0,0"  Height="29" Width="113" Content="für die Wocher vom"            FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbBis"                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,111,0,0"  Height="29" Width="25"  Content="bis"                            FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbAbteilung"           HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 146,0,0"  Height="29" Width="153" Content="Abteilung oder Arbeitsgebiet"  FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbAusbildungsjahr"     HorizontalAlignment="Left" VerticalAlignment="Top" Margin="345,146,0,0"  Height="29" Width="100" Content="Ausbildungsjahr"               FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbBetriebsaufgen"      HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,185,0,0"    Height="29" Width="100" Content="Betriebsaufgaben"                FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbSchulungen"          HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,344,0,0"    Height="29" Width="343" Content="Unterweisungen, betrieblicher Unterricht, sonstige Schulungen"  FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
+        <Label Name="LbBerufsschule"        HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,511,0,-138" Height="29" Width="343" Content="Berufsschule (Unterrichtsthemen)" FontStyle="Italic" FontSize="12" Background="Black" Foreground="White"/>
 
         <TextBox Margin="10,214,10,76"  Height ="125"  AcceptsTab="True" TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.CanContentScroll="True"/>
         <TextBox Margin="8,372,10,-95"  Height ="125"  AcceptsTab="True" TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.CanContentScroll="True"/>

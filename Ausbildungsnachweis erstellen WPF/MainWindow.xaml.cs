@@ -20,27 +20,27 @@ namespace Ausbildungsnachweis_erstellen_WPF
 {
     public partial class MainWindow : Window
     {
-        Ausbildungsnachweis nachweis = new Ausbildungsnachweis();
+        private readonly Ausbildungsnachweis _nachweis = new Ausbildungsnachweis();
         public MainWindow()
         {
             InitializeComponent();
-            setAllgemeineDaten();
-            Pdfcreator pdf = new Pdfcreator(nachweis);
+            SetAllgemeineDaten();
+            Pdfcreator pdf = new Pdfcreator(_nachweis);
             //pdf.pdfFromScratch();
         }
 
-        public void setAllgemeineDaten()
+        private void SetAllgemeineDaten()
         {
-            PathForNewPDF.Text = nachweis.getToPath();
+            PathForNewPdf.Text = _nachweis.GetToPath();
         }
 
-        private void selectDirectory(object sender, RoutedEventArgs e)
+        private void SelectDirectory(object sender, RoutedEventArgs e)
         {
             using (FolderBrowserDialog file = new FolderBrowserDialog())
             {
                 if (file.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
-                    PathForNewPDF.Text = file.SelectedPath;
+                    PathForNewPdf.Text = file.SelectedPath;
                 }
             }
         }
